@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-26T18:39:11 AEST" name="Command line suite" finished-at="2023-06-26T18:39:13 AEST" duration-ms="2662">
+    <groups>
+    </groups>
+    <test started-at="2023-06-26T18:39:11 AEST" name="Command line test" finished-at="2023-06-26T18:39:13 AEST" duration-ms="2662">
+      <class name="demo.Devops1APITest">
+        <test-method signature="validateUsers()[pri:1, instance:demo.Devops1APITest@418e7838]" started-at="2023-06-26T18:39:11 AEST" name="validateUsers" finished-at="2023-06-26T18:39:13 AEST" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsers -->
+        <test-method signature="emptyDataArray()[pri:2, instance:demo.Devops1APITest@418e7838]" started-at="2023-06-26T18:39:13 AEST" name="emptyDataArray" finished-at="2023-06-26T18:39:13 AEST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyDataArray -->
+      </class> <!-- demo.Devops1APITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
