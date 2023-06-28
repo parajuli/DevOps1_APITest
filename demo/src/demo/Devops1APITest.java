@@ -30,11 +30,10 @@ public class Devops1APITest {
 		System.out.println("List of Users: ");
 		// Retrieve first_name values from Data objects in the response
 		List<String> firstNames = new ArrayList<>();
-		for (int i = 0; i < usersList.getData().size(); i++) {
-			Data data = usersList.getData().get(i);
-			firstNames.add(data.getFirst_name());
-			System.out.println(data.getFirst_name());
-		}
+		usersList.getData().forEach(data -> {
+		    firstNames.add(data.getFirst_name());
+		    System.out.println(data.getFirst_name());
+		});
 
 		// Validate if 'first_name' array contains Jack
 		Assert.assertFalse(firstNames.contains("Jack"), "Validation failed: 'first_name' array contains Jack.");
